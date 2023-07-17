@@ -57,7 +57,8 @@ export class OpenAI {
         }
         catch(error) {
             console.log("OpenAI happen error!");
-            console.log(error?.data?.error);
+            //console.log(error?.data?.error);
+            console.error(error);
         }
     }
 
